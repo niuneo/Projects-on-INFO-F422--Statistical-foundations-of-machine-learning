@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label="thalach <= 150.5\ngini = 0.5\nsamples = 100.0%\nvalue = [0.53, 0.47]\nclass = no disease", fillcolor="#fcf0e7"] ;
+1 [label="ca <= 0.5\n0.38\n44.1%\n[0.25, 0.75]\nno disease", fillcolor="#7cbeee"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="oldpeak <= 0.7\n0.49\n21.7%\n[0.43, 0.57]\nno disease", fillcolor="#cfe7f9"] ;
+1 -> 2 ;
+3 [label="0.43\n7.9%\n[0.68, 0.32]\nno disease", fillcolor="#f1bc95"] ;
+2 -> 3 ;
+4 [label="0.37\n13.8%\n[0.24, 0.76]\nno disease", fillcolor="#78bced"] ;
+2 -> 4 ;
+5 [label="age <= 70.5\n0.18\n22.4%\n[0.1, 0.9]\nno disease", fillcolor="#4fa8e8"] ;
+1 -> 5 ;
+6 [label="0.1\n21.7%\n[0.05, 0.95]\nno disease", fillcolor="#44a2e6"] ;
+5 -> 6 ;
+7 [label="0.0\n0.7%\n[1.0, 0.0]\nno disease", fillcolor="#e58139"] ;
+5 -> 7 ;
+8 [label="thal <= 4.5\n0.35\n55.9%\n[0.78, 0.22]\nno disease", fillcolor="#eca572"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="thalach <= 162.5\n0.26\n40.8%\n[0.85, 0.15]\nno disease", fillcolor="#ea975c"] ;
+8 -> 9 ;
+10 [label="0.41\n16.4%\n[0.71, 0.29]\nno disease", fillcolor="#f0b48a"] ;
+9 -> 10 ;
+11 [label="0.1\n24.3%\n[0.95, 0.05]\nno disease", fillcolor="#e68844"] ;
+9 -> 11 ;
+12 [label="oldpeak <= 2.35\n0.49\n15.1%\n[0.58, 0.42]\nno disease", fillcolor="#f8decb"] ;
+8 -> 12 ;
+13 [label="0.45\n13.8%\n[0.66, 0.34]\nno disease", fillcolor="#f3c3a1"] ;
+12 -> 13 ;
+14 [label="0.0\n1.3%\n[0.0, 1.0]\nno disease", fillcolor="#399de5"] ;
+12 -> 14 ;
+}
