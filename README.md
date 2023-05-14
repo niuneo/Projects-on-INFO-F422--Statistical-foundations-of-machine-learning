@@ -1,7 +1,7 @@
 # Projects-on-INFO-F422--Statistical-foundations-of-machine-learning
 
 Coursework description 
-https://uv.ulb.ac.be/course/view.php?id=108355
+https://gianluca.bontempi.web.ulb.be/styled-3/
 
 Reference Textbook
 https://leanpub.com/statisticalfoundationsofmachinelearning
